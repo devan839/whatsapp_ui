@@ -20,23 +20,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: AppBar(
-        leading: Icon(Icons.more_horiz),
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        centerTitle: true,
-        actions: [
-          Icon(Icons.camera_alt_rounded),
-          SizedBox(width: 5),
-          Icon(Icons.add_circle, color: Colors.green),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(Icons.message_rounded),
-        backgroundColor: Colors.green,
-        foregroundColor: Colors.white,
-      ),
+
+
       bottomNavigationBar: BottomNavigationBar(selectedItemColor: Colors.grey,
         unselectedItemColor: Colors.white,showUnselectedLabels: true,
         currentIndex: index,
